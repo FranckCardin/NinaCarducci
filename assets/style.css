@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Spectral';
+    src: url(fonts/spectral/Spectral-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(fonts/inter/Inter-Regular.ttf);
+}
+
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -89,7 +99,6 @@ img{
 #about-me .about-me__introduction {
 	font-family: 'Spectral';
 	font-weight: 800;
-	font-style: italic;
     width: 60%;
     font-size: 16px;
 }
@@ -147,21 +156,19 @@ img{
 
 .quote {
 	font-family: 'Spectral';
-	font-style: italic;
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
-	font-style: italic;
+	font-family: 'Spectral';
 	font-weight: 300;
     font-size: 35px;
 
 }
 .quote__author {
-	font-family: Spectral;
-	font-weight: 800;
+	font-family: 'Spectral';
+    font-weight: 800;
 	font-size: 22px;
 }
 
